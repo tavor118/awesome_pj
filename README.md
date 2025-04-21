@@ -2,29 +2,54 @@
 
 A collection of useful links, inspired by Awesome Python and Awesome Django, but carefully crafted to avoid being overwhelming. 
 
-## Python 
+# Table of Contents
+* [Python](#Python)
+	* [Text Processing](#Text-Processing)
+	* [Datetime](#Datetime)
+	* [Dependency Management](#Dependency-Management)
+	* [Integrations](#Integrations)
+	* [CLI](#CLI)
+	* [Scraping](#Scraping)
+	* [Documentation](#Documentation)
+	* [Data Analysis](#Data-Analysis)
+	* [Other](#Other)
+* [Web Development](#Web-Development)
+	* [Django](#Django)
+	* [FasAPI / Litestar](#FasAPI-/-Litestar)
+	* [Task Queues](#Task-Queues)
+	* [HTTP Clients](#HTTP-Clients)
+	* [WSGI](#WSGI)
+	* [Environment](#Environment)
+* [Development](#Development)
+	* [Testing](#Testing)
+	* [Linters and Formatters](#Linters-and-Formatters)
+* [Interview](#Interview)
+* [Other collections](#Other-collections)
 
-### Text Processing 
+
+## Python
+
+### Text Processing
 
 - [python-phonenumbers](https://github.com/daviddrysdale/python-phonenumbers) - parse and convert phonenumbers
 - [inflection](https://github.com/jpvanhal/inflection) - string transformation library. It singularizes and pluralizes English words, and transforms strings from CamelCase to underscored string
 
 
-### Datetime 
+### Datetime
 
 - [pendulum](https://github.com/python-pendulum/pendulum) - Python datetimes made easy
 - [arrow](https://github.com/arrow-py/arrow) - better dates & times for Python 
 - [dateutil](https://github.com/dateutil/dateutil) - useful extensions to the standard Python datetime features
 
 
-### Dependency Management 
+### Dependency Management
 
 - [uv](https://github.com/astral-sh/uv) - an extremely fast Python package and project manager, written in Rust.
 - [poetry](https://github.com/python-poetry/poetry) 
 - [pipenv](https://github.com/pypa/pipenv) 
 
 
-### Integrations 
+### Integrations
 
 - [redis-py](https://github.com/redis/redis-py) - python interface to the Redis key-value store
 - [python-redis-lock](https://github.com/ionelmc/python-redis-lock) - Lock context manager implemented via redis SETNX/BLPOP
@@ -35,13 +60,13 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 - [Python.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore)
 
 
-### CLI 
+### CLI
 
 - [typer](https://github.com/fastapi/typer) - library for building CLI applications 
 - [click](https://github.com/pallets/click/) - A package for creating beautiful command line interfaces in a composable way.
 
 
-### Scraping 
+### Scraping
 
 - [scrapy](https://github.com/scrapy/scrapy) - web crawling and web scraping framework 
 - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - providing Pythonic idioms for iterating, searching, and modifying HTML or XML
@@ -54,25 +79,25 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 - [mkdocs](https://github.com/mkdocs/mkdocs) - project documentation with markdown 
 
 
-### Data Analysis 
+### Data Analysis
 
 - [pandas](https://github.com/pandas-dev/pandas) - powerful Python data analysis toolkit 
 - [numpy](https://github.com/numpy/numpy) - fundamental package for scientific computing with Python 
 - [plotly](https://github.com/plotly/plotly.py) - interactive graphing library 
 
-### Other 
+### Other
 
 - [more-itertools](https://github.com/erikrose/more-itertools) - More routines for operating on iterables, beyond `itertools`.
 
 
 
-## Web Development 
+## Web Development
 
  - [python-dependency-injector](https://github.com/ets-labs/python-dependency-injector) - dependency injection framework
  - [pyjwt](https://github.com/jpadilla/pyjwt) - JSON Web Token implementation in Python.
 
 
-### Django 
+### Django
 
 - [django](https://github.com/django/django) 
 - [django-filter](https://github.com/carltongibson/django-filter) - allowing users to declaratively add dynamic `QuerySet` filtering from URL parameters.
@@ -156,7 +181,7 @@ Django Admin
 - [requests](https://github.com/psf/requests) - HTTP Requests for Humans
 
 
-### WSGI 
+### WSGI
 
 - [gunicorn](https://github.com/benoitc/gunicorn) - Python WSGI HTTP Server 
 - [uvicorn](https://github.com/encode/uvicorn) - Python ASGI web server 
@@ -169,12 +194,12 @@ Django Admin
 - [python-dotenv](https://github.com/theskumar/python-dotenv) - reads key-value pairs from a `.env` file
 
 
-## Development 
+## Development
 
 - [icecream](https://github.com/gruns/icecream) - never use print() to debug again 
 
 
-### Testing 
+### Testing
 
 - [pytest](https://github.com/pytest-dev/pytest) - best testing framework 
 - [pytest-xdist](https://github.com/pytest-dev/pytest-xdist) - extends pytest with new test execution modes, the most used being distributing tests across multiple CPUs to speed up test execution
@@ -202,13 +227,13 @@ Django Admin
 
 
 
-## Interview 
+## Interview
 
 - [pj_python_interview_questions_and_answers](https://tavor118.github.io/pj_python_interview_questions_and_answers) - python Interview Questions and Answers 
 - [system-design-primer](https://github.com/donnemartin/system-design-primer) - prep for the system design interview. Includes Anki flashcards. 
 
 
-## Other collections 
+## Other collections
 
 - [awesome-python](https://github.com/uhub/awesome-python) 
 - [awesome-django](https://github.com/wsvincent/awesome-django) 
