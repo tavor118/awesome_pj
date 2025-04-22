@@ -2,15 +2,13 @@
 
 A collection of useful links, inspired by Awesome Python and Awesome Django, but carefully crafted to avoid being overwhelming. 
 
+
 # Table of Contents
 * [Python](#Python)
 	* [Text Processing](#Text-Processing)
 	* [Datetime](#Datetime)
-	* [Dependency Management](#Dependency-Management)
 	* [Integrations](#Integrations)
-	* [CLI](#CLI)
 	* [Scraping](#Scraping)
-	* [Documentation](#Documentation)
 	* [Data Analysis](#Data-Analysis)
 	* [Other](#Other)
 * [Web Development](#Web-Development)
@@ -21,8 +19,11 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 	* [WSGI](#WSGI)
 	* [Environment](#Environment)
 * [Development](#Development)
+	* [Dependency Management](#Dependency-Management)
 	* [Testing](#Testing)
 	* [Linters and Formatters](#Linters-and-Formatters)
+	* [CLI](#CLI)
+	* [Documentation](#Documentation)
 * [Interview](#Interview)
 * [Other collections](#Other-collections)
 
@@ -42,13 +43,6 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 - [dateutil](https://github.com/dateutil/dateutil) - useful extensions to the standard Python datetime features
 
 
-### Dependency Management
-
-- [uv](https://github.com/astral-sh/uv) - an extremely fast Python package and project manager, written in Rust.
-- [poetry](https://github.com/python-poetry/poetry) 
-- [pipenv](https://github.com/pypa/pipenv) 
-
-
 ### Integrations
 
 - [redis-py](https://github.com/redis/redis-py) - python interface to the Redis key-value store
@@ -60,23 +54,11 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 - [Python.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore)
 
 
-### CLI
-
-- [typer](https://github.com/fastapi/typer) - library for building CLI applications 
-- [click](https://github.com/pallets/click/) - A package for creating beautiful command line interfaces in a composable way.
-
-
 ### Scraping
 
 - [scrapy](https://github.com/scrapy/scrapy) - web crawling and web scraping framework 
 - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - providing Pythonic idioms for iterating, searching, and modifying HTML or XML
 - [lxml](http://lxml.de/) - a very fast, easy-to-use and versatile library for handling HTML and XML
-
-
-### Documentation
-
-- [sphinx](https://github.com/sphinx-doc/sphinx) - Sphinx documentation generator
-- [mkdocs](https://github.com/mkdocs/mkdocs) - project documentation with markdown 
 
 
 ### Data Analysis
@@ -199,6 +181,14 @@ Django Admin
 - [icecream](https://github.com/gruns/icecream) - never use print() to debug again 
 
 
+### Dependency Management
+
+- [uv](https://github.com/astral-sh/uv) - an extremely fast Python package and project manager, written in Rust.
+- [poetry](https://github.com/python-poetry/poetry) 
+- [pipenv](https://github.com/pypa/pipenv) 
+
+
+
 ### Testing
 
 - [pytest](https://github.com/pytest-dev/pytest) - best testing framework 
@@ -225,6 +215,16 @@ Django Admin
 - [mypy](https://github.com/python/mypy) - static typing for Python 
 
 
+### CLI
+
+- [typer](https://github.com/fastapi/typer) - library for building CLI applications 
+- [click](https://github.com/pallets/click/) - A package for creating beautiful command line interfaces in a composable way.
+
+
+### Documentation
+
+- [sphinx](https://github.com/sphinx-doc/sphinx) - Sphinx documentation generator
+- [mkdocs](https://github.com/mkdocs/mkdocs) - project documentation with markdown 
 
 
 ## Interview
