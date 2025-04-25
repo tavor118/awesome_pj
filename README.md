@@ -13,7 +13,7 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 	* [Other](#Other)
 * [Web Development](#Web-Development)
 	* [Django](#Django)
-	* [FasAPI / Litestar](#FasAPI-/-Litestar)
+	* [FasAPI / Litestar](#FasAPI--Litestar)
 	* [Task Queues](#Task-Queues)
 	* [HTTP Clients](#HTTP-Clients)
 	* [WSGI](#WSGI)
