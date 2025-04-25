@@ -13,7 +13,7 @@ A collection of useful links, inspired by Awesome Python and Awesome Django, but
 	* [Other](#Other)
 * [Web Development](#Web-Development)
 	* [Django](#Django)
-	* [FasAPI / Litestar](#FasAPI-/-Litestar)
+	* [FasAPI / Litestar](#FasAPI--Litestar)
 	* [Task Queues](#Task-Queues)
 	* [HTTP Clients](#HTTP-Clients)
 	* [WSGI](#WSGI)
@@ -139,7 +139,8 @@ Django Admin
 - [fastapi](https://github.com/fastapi/fastapi) 
 - [litestar](https://github.com/litestar-org/litestar)
 - [pydantic](https://github.com/pydantic/pydantic) - data validation using Python type hints 
-- [sqlalchemy](https://github.com/sqlalchemy/sqlalchemy) - database toolkit for Python 
+- [sqlalchemy](https://github.com/sqlalchemy/sqlalchemy) - database toolkit for Python
+- [alembic](https://github.com/sqlalchemy/alembic) - Alembic is a database migrations tool written by the author of SQLAlchemy.
 - [sqlmodel](https://github.com/fastapi/sqlmodel) - library for interacting with SQL databases from Python code, with Python objects
 - [orjson](https://github.com/ijl/orjson) - Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 - [slowapi](https://github.com/laurentS/slowapi) - rate limiting library for Starlette and FastAPI
@@ -152,6 +153,7 @@ Django Admin
 - [celery](https://github.com/celery/celery) - distributed task queue 
 - [flower](https://github.com/mher/flower) - real-time monitor and web admin for Celery distributed task queue
 - [Airflow](https://airflow.apache.org/) - Airflow is a platform to programmatically author, schedule and monitor workflows.
+- [taskiq](https://github.com/taskiq-python/taskiq) - Taskiq is an asynchronous distributed task queue for python. This project takes inspiration from big projects such as Celery and Dramatiq. But taskiq can send and run both the sync and async functions, has integration with popular async frameworks, such as FastAPI and AioHTTP.
 
 
 ### HTTP Clients
@@ -174,6 +176,7 @@ Django Admin
 ### Environment
 
 - [python-dotenv](https://github.com/theskumar/python-dotenv) - reads key-value pairs from a `.env` file
+- [pydatic-settings](https://github.com/pydantic/pydantic-settings) - Settings management using Pydantic.
 
 
 ## Development
@@ -198,6 +201,7 @@ Django Admin
 - [coverage](https://pypi.org/project/coverage/) - code coverage measurement
 - [factory_boy](https://github.com/FactoryBoy/factory_boy) - test fixtures replacement for Python
 - [faker](https://github.com/joke2k/faker) - a Python package that generates fake data
+- [mimesis](https://github.com/lk-geimfari/mimesis) - Fake Data Generator. Faster than Factory-Boy
 - [freezegun](https://github.com/spulec/freezegun) - travel through time by mocking the datetime module
 - [time-machine](https://github.com/adamchainz/time-machine) - travel through time in your tests. Faster than freezegun.
 - [responses](https://github.com/getsentry/responses) - a utility library for mocking out the requests Python library
@@ -224,7 +228,8 @@ Django Admin
 ### Documentation
 
 - [sphinx](https://github.com/sphinx-doc/sphinx) - Sphinx documentation generator
-- [mkdocs](https://github.com/mkdocs/mkdocs) - project documentation with markdown 
+- [mkdocs](https://github.com/mkdocs/mkdocs) - project documentation with markdown
+- [django-schema](https://github.com/pikhovkin/django-schema-viewer) - visualizes a DB schema based on Django models.
 
 
 ## Interview
